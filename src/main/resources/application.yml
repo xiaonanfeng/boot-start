@@ -1,0 +1,16 @@
+server:
+  port: 8080
+security:
+  user:
+    name: admin
+    password: admin
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: cg110
+    password: cg110
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
